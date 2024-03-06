@@ -1,7 +1,7 @@
 # nginx-brotli-modules
 A shell script to build compliant Brotli modules with your current Nginx server version.
 
-## How to build compliant Brolti modules with my current Nginx server version
+## How to build compliant Brolti modules with your current Nginx server version
 - Download the file ``build-nginx-brotli-modules.sh``
 - Run this command:
   ```
@@ -11,7 +11,7 @@ A shell script to build compliant Brotli modules with your current Nginx server 
   - ``ngx_http_brotli_filter_module.so``
   - ``ngx_http_brotli_static_module.so``
  
-## How to get Brotli working with my Nginx server
+## How to get Brotli working with your Nginx server
 - Move the two files above to ``/usr/lib/nginx/modules``
 - Prepend those two lines at the top of ``/etc/nginx/nginx.conf``:
 ```
